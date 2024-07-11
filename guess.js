@@ -7,7 +7,7 @@ var guess=parseInt(document.getElementById('guessInput').value);
 attempt++;
 
 if(guess===randomNumber){
-    displayMessage("Congratulations! You gueesed the Number in "+attempt+" attempts");
+    displayMessage("Congratulations! You guessed the Number in "+attempt+" attempts");
     document.getElementById('btn').disabled=true;
 }
 else if (guess<randomNumber){
